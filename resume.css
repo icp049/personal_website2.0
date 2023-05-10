@@ -1,0 +1,484 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color:lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+
+}
+
+.container .left_side{
+position: relative;
+background: darkcyan;
+padding:40px;
+
+
+}
+
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    font-size: 13px;
+}
+.contact_me{
+
+    padding-top: 40px;
+    align-items: center;
+}
+
+
+
+.title{
+
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+ 
+
+}
+.contact_me ul li{
+
+    list-style: none;
+}
+
+
+.school_info{
+
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.language_info{
+
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.profile_text .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid whitesmoke;
+}
+
+.profile_text .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_text h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.container .right_side{
+    position: relative;
+    background: white;;
+    padding: 40px;
+}
+
+
+.about p{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.language_container{
+    padding-top: 20px;
+}
+
+.experience_container{
+    padding-top: 20px;
+}
+
+.experience_container ul{
+    padding-top: 8px;
+}
+
+.experience_container ul h5{
+    font-style:italic;
+    font-weight: 100;
+}
+
+.other_work{
+    padding-top:15px;
+    
+}
+
+.other_work ul{
+    padding-top: 8px;
+}
+
+.other_work ul h5{
+    font-style:italic;
+    font-weight: 100;
+}
+
+.title2{
+
+    color: teal;
+}
+
+.title3{
+color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+.skill_container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: gray;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius:7px;
+    
+    }
+    
+    .skill_container .skill-box{
+        width: 100%;
+        margin:25px 0;
+            
+    
+    }
+    
+    .skill-box .skill{
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        color: black;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .skill-box .skill-bar{
+        height: 8px;
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 6px;
+        background: lightslategray;
+       
+    }
+
+
+    .skill-bar .skill-per1{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 60%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+    
+    .skill-bar .skill-per2{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 85%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+
+
+    .skill-bar .skill-per3{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 65%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+
+
+    .skill-bar .skill-per4{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 90%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+
+
+    .skill-bar .skill-per5{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 70%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+
+
+    .skill-bar .skill-per6{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 80%;          /*change this according to percentage of skill */
+        border-radius: 6px;
+        background: turquoise;
+        animation: progress 2s ease-in-out forwards;
+        opacity: 0;
+    }
+    
+    @keyframes progress{
+        0%{
+             width: 0;
+             opacity: 9;
+    
+    
+        }
+        100%{
+            opacity: 1;
+        }
+    
+    }
+    
+    
+    .skill-per1 .tooltip1{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+
+
+
+
+
+    .skill-per2 .tooltip2{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+
+
+
+    .skill-per3 .tooltip3{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+
+
+    .skill-per4 .tooltip4{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+
+    .skill-per5 .tooltip5{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+
+    .skill-per6 .tooltip6{
+        position: absolute;
+        right: -14px;
+        top: -28px;
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: turquoise;
+        z-index: 1;
+        margin-top: 10px;
+    
+    }
+    
+    
+    
+    
+    .tooltip1::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+
+    .tooltip2::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+    
+
+    .tooltip3::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+    
+    
+    
+    
+    .tooltip4::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+    
+
+    .tooltip5::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+    
+    .tooltip6::before{
+        content: '';
+        position: absolute;
+        left: 38%;
+        bottom: -10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        z-index: -1;
+        background-color: turquoise;
+        transform: translateY(-50%) rotate(45deg);
+    
+    }
+    

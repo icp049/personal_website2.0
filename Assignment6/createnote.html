@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel = "stylesheet" href ="createnotestyle.css">
+    
+    
+</head>
+<body>
+
+<div class = "notebox">
+
+<h1> NoteCollab </h1>
+<h2> Note Title</h2>
+<form class = "createnote" action = "createnote.php" method = "post" name = "form">
+
+<textarea id = "notecontent" name= "notecontent" placeholder = "Type Note Title Here" rows ="7" cols = "50">
+</textarea>
+<div id = "content_error"> You exceeded the 256 character limit</div>
+
+<p> Character Count: <b id = "character-count">0</b></p>
+
+<br>
+<br>
+
+<button class = "submit" type = "submit" name = "submit">Submit</button>
+
+</form>
+</div>
+
+
+
+<script src = "createnote.js"></script>
+</body>
+</html>
+
+
+
+

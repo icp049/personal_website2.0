@@ -1,0 +1,63 @@
+body {
+
+    background-color: lightblue;
+}
+h1
+{
+text-align: center;
+
+}
+.notebox
+{
+width:500px;
+Height:500px;
+
+background-color:white;
+border-radius: 10px;
+
+border: 10px solid pink;
+text-align: center;
+
+}
+Input[type = "submit"]
+{
+ 
+    margin: auto;
+    Border: auto;
+    Width: 100px;
+    Height:35px;
+    Background-color: pink;
+ }
+ .notebox #content_error{
+
+ margin-top: 5px;
+ width : 345px;
+ font-size: 18px;
+ color: red;
+ background: pink;
+ text-align: center;
+ padding: 5px 8px;
+ border-radius: 3px;
+ border: 1px solid red;
+ display: none;
+ }
+
+ .notebox button{
+    
+        margin: 45px 0 30px 0;
+        height:45px;
+        width:365px;
+        font-size: 20px;
+        color: blue;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: chocolate;
+        transition: .5s;
+        text-align:center;
+        
+       
+        
+
+ }
+ 

@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+}
+.notes{
+    padding: 1rem;
+    background-color: skyblue;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+.container
+{
+ position:absolute;
+ top: 130px;
+ width: 100%;
+
+ 
+ 
+
+
+}
+
+
+.note-btn{
+    padding: 7px;
+    margin-top: 5px;
+    background-color:darkblue;
+    color: white;
+    border-radius:3px;
+
+}
+.createbutton
+{
+
+    position: absolute;
+    top: 25px;
+    left: 350px;
+    height:45px;
+    width:365px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    background-color: chocolate;
+        
+        
+}
